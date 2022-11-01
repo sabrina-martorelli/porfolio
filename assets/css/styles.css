@@ -171,12 +171,12 @@ padding-bottom: 20px;
 #work {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 400px 300px 300px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "work-1 work-1 work-2"
+    "work-1 work-1 work-1"
     "work-3 work-4 work-2"
-    "work-5 work-5 work-5"
+    "work-5 work-5 work-2"
   ;
 }
 
