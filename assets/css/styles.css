@@ -240,7 +240,6 @@ h4 {
   margin: 40px auto;
   font-weight: normal;
 
-
 }
 
 #navigation-contact a {
@@ -270,11 +269,11 @@ h4 {
 
 /* Footer CSS */
 
-footer{
-background-color: var(--primary-color);
-padding: 20px;
-color: var(--secondary-color);
-text-align: end;
+footer {
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: var(--secondary-color);
+  text-align: end;
 }
 
 
@@ -282,36 +281,41 @@ text-align: end;
 
 @media screen and (max-width: 600px) {
 
+  #navigation-links {
+    display: flex;
+    flex-direction: column;
 
+  }
 
+  #me {
+    display: block;
+    height: 100%;
+  }
 
-#me {
-  display: block;
-  height: 100%;
-}
-
-
- 
-
-  #work{
-      grid-template-areas:
+  #work {
+    grid-template-areas:
       'work-1'
       'work-2'
-      'work-3' 
+      'work-3'
       'work-4'
       'work-5'
-      ;
-      grid-template-rows: 300px 300px 300px 300px 300px ;
-      grid-template-columns: 1fr;
+    ;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+  }
 
-      }
+  #navigation-contact {
+    justify-items: flex-start;
+    width: auto;
+  }
+  
+  #navigation-contact h3 {
+    font-size: 99%;
+  }
 
+  footer {
+    text-align: start;
+  }
 
 
 }
-
-
-
-
-
-
