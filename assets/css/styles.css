@@ -91,6 +91,13 @@ font-weight: normal;
 
 }
 
+#navigation-links a:hover {
+
+  color: var(--highlight-color);
+  text-decoration: underline;
+
+
+}
 
 .sub-heading {
   text-align: center;
@@ -226,6 +233,9 @@ padding-bottom: 20px;
   filter:none;
  
 }
+
+
+
 
 
 
