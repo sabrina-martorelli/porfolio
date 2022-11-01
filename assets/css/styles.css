@@ -231,10 +231,6 @@ h4 {
 }
 
 
-
-
-
-
 /* Contact Section CSS */
 
 #navigation-contact {
@@ -270,4 +266,14 @@ h4 {
   color: var(--highlight-color);
   font-weight: normal;
 
+}
+
+
+/* Footer CSS */
+
+footer{
+background-color: var(--primary-color);
+padding: 20px;
+color: var(--secondary-color);
+text-align: end;
 }
