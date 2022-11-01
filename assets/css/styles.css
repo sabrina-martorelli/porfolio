@@ -24,6 +24,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
+ 
   }
   
   h1,
@@ -153,7 +154,7 @@ justify-content:space-around;
 #work-5 {
   grid-area: work-5;
   background-image: url("https://api.lorem.space/image/album");
-  filter: grayscale(100%);
+
 }
 
 .work-area {
@@ -164,7 +165,7 @@ justify-content:space-around;
   cursor: pointer;
   display: grid;
   align-content: end;
- 
+  filter: grayscale(100%);
 }
 
 .heading {
@@ -181,6 +182,37 @@ justify-content:space-around;
 
 /* Contact Section CSS */
 
+#navigation-contact{    
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items:flex-start;
+  margin: 40px auto;
+  font-weight: normal;
 
 
+}
 
+#navigation-contact img {    
+  width: 8%;
+  height: auto;
+  margin: 0px 20px;
+ 
+}
+
+
+#navigation-contact a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--secondary-color );
+  
+  
+}
+
+#navigation-contact h3{
+
+  font-size: 20px;
+  color: var(--highlight-color);
+  font-weight: normal;
+
+}
