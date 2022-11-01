@@ -1,0 +1,64 @@
+/*Variables*/
+:root {   
+  
+ /* Main colours */
+    --primary-color:  rgb(14, 24, 24); 
+    --secondary-color:  rgb(111, 109, 105); 
+    --highlight-color:   rgb(234, 31, 73); 
+  
+ /* Text colours */  
+
+    --primary-color--text : rgb(0, 0, 0); 
+    --secondary-color--text:  rgb(234, 31, 73);
+    
+    }
+
+/* Global element selector */
+/* RESETS */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+
+
+
+
+
+/* Navigation styles */
+ header{
+    display: flex;
+    background-color: #000;
+    padding: 20px;
+    }
+
+header h1
+{
+font-size: 30px;
+color: red;
+
+}
+
+nav p{
+color: #fff;
+
+}
