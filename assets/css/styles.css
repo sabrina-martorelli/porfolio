@@ -76,11 +76,6 @@ font-size: 20px;
 font-weight: normal;
 }
 
-/*header nav a: hover {
-  text-decoration: underline;
-  color: var(--highlight-color);
-  }
-*/
 
 #navigation-links{    
   
@@ -95,6 +90,7 @@ font-weight: normal;
 
   color: var(--highlight-color);
   text-decoration: underline;
+
 
 
 }
@@ -157,7 +153,14 @@ padding-bottom: 20px;
   text-decoration: none;
 }
 
+#me aside h4 a:hover {
 
+  color: var(--highlight-color);
+  text-decoration: underline;
+  font-weight: bolder;
+
+
+}
 
 
 
