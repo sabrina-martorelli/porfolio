@@ -1,84 +1,75 @@
 /*Variables*/
-:root {   
-  
- /* Main colours */
-    --primary-color:  rgb(14, 24, 24); 
-    --secondary-color:  rgb(111, 109, 105); 
-    --highlight-color:   rgb(234, 31, 73); 
-  
- /* Text colours */  
+:root {
 
-    --primary-color--text : rgb(0, 0, 0); 
-    --secondary-color--text:  rgb(234, 31, 73);
-    
-    }
+  /* Main colours */
+  --primary-color: rgb(14, 24, 24);
+  --secondary-color: rgb(145, 144, 140);
+  --highlight-color: rgb(234, 31, 73);
 
-/* Global element selector */
-/* RESETS */
+}
+
+
+/* Resets */
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.5;
- 
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
-  
-  p {
-    margin: 0;
-  }
-  
+  box-sizing: border-box;
+}
 
-/* Typography CSS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
 
 
+/* General element selectors */
 
-.icon  {    
+.icon {
   width: 8%;
   height: auto;
   margin: 0px 20px;
   cursor: pointer;
- 
+
 }
 
 /* Navigation and sub-heading CSS */
- header{
-    display: flex;
-    background-color: var(--primary-color);
-    padding: 20px;
-    justify-content: space-between;
-    }
+header {
+  display: flex;
+  background-color: var(--primary-color);
+  padding: 20px;
+  justify-content: space-between;
+}
 
-header h1
-{
-font-size: 32px;
-color: var(--highlight-color);
-font-weight: normal;
+header h1 {
+  font-size: 32px;
+  color: var(--highlight-color);
+  font-weight: normal;
 
 }
 
 header nav a {
-color: #fff;
-text-decoration: none;
-font-size: 20px;
-font-weight: normal;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
 }
 
+#navigation-links {
 
-#navigation-links{    
-  
   display: flex;
   width: 30%;
   align-items: center;
@@ -109,12 +100,12 @@ font-weight: normal;
 
 /* Me Section CSS */
 #me {
-display: flex;
-min-height: 500px;
-margin-top: 3%;
-justify-content: center;
+  display: flex;
+  min-height: 500px;
+  margin-top: 3%;
+  justify-content: center;
 
-align-items: center;
+  align-items: center;
 }
 
 #me figure img {
@@ -128,25 +119,27 @@ align-items: center;
 
 }
 
-#me aside h2, h3, h4{
+#me aside h2,
+h3,
+h4 {
   font-weight: normal;
 }
 
 
-#me aside h2{
-font-size: 35px;
-padding-bottom: 20px;
+#me aside h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
 
 }
 
-#me aside h3{
+#me aside h3 {
   font-size: 20px;
   color: var(--secondary-color);
   padding-bottom: 20px;
-  
+
 }
 
-#me aside h4 a{
+#me aside h4 a {
 
   font-size: 14px;
   color: var(--secondary-color);
@@ -195,21 +188,25 @@ padding-bottom: 20px;
   background-image: url("../images/realstate.jpg");
 
 }
+
 #work-2 {
   grid-area: work-2;
   background-image: url("../images/fashion.jpg");
 
 }
+
 #work-3 {
   grid-area: work-3;
   background-image: url("../images/sports.jpg");
 
 }
+
 #work-4 {
   grid-area: work-4;
   background-image: url("../images/products.jpg");
 
 }
+
 #work-5 {
   grid-area: work-5;
   background-image: url("../images/travel.jpg");
@@ -224,7 +221,7 @@ padding-bottom: 20px;
   cursor: pointer;
   display: grid;
   align-content: end;
-  
+
 }
 
 .heading {
@@ -232,7 +229,7 @@ padding-bottom: 20px;
   padding: 15px;
   color: var(--highlight-color);
   font-size: 20px;
-  border-bottom: 5px solid ;
+  border-bottom: 5px solid;
 
 }
 
@@ -243,11 +240,11 @@ padding-bottom: 20px;
 
 /* Contact Section CSS */
 
-#navigation-contact{    
+#navigation-contact {
   display: flex;
   flex-direction: column;
   width: 30%;
-  align-items:flex-start;
+  align-items: flex-start;
   margin: 40px auto;
   font-weight: normal;
 
@@ -257,20 +254,20 @@ padding-bottom: 20px;
 #navigation-contact a {
   text-decoration: none;
   cursor: pointer;
-  color: var(--secondary-color );
-  
-  
+  color: var(--secondary-color);
+
+
 }
 
 #navigation-contact a:hover {
   color: var(--highlight-color);
   text-decoration: underline;
- 
-  
-  
+
+
+
 }
 
-#navigation-contact h3{
+#navigation-contact h3 {
 
   font-size: 20px;
   color: var(--highlight-color);
