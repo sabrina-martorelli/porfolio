@@ -192,27 +192,27 @@ padding-bottom: 20px;
 
 #work-1 {
   grid-area: work-1;
-  background-image: url("https://api.lorem.space/image/house");
+  background-image: url("../images/realstate.jpg");
 
 }
 #work-2 {
   grid-area: work-2;
-  background-image: url("https://api.lorem.space/image/fashion");
+  background-image: url("../images/fashion.jpg");
 
 }
 #work-3 {
   grid-area: work-3;
-  background-image: url("https://api.lorem.space/image/watch");
+  background-image: url("../images/sports.jpg");
 
 }
 #work-4 {
   grid-area: work-4;
-  background-image: url("https://api.lorem.space/image/drink");
+  background-image: url("../images/products.jpg");
 
 }
 #work-5 {
   grid-area: work-5;
-  background-image: url("https://api.lorem.space/image/album");
+  background-image: url("../images/travel.jpg");
 
 }
 
@@ -224,7 +224,7 @@ padding-bottom: 20px;
   cursor: pointer;
   display: grid;
   align-content: end;
-  filter: grayscale(100%);
+  
 }
 
 .heading {
@@ -233,8 +233,7 @@ padding-bottom: 20px;
   color: var(--highlight-color);
   font-size: 20px;
   border-bottom: 5px solid ;
-  filter:none;
- 
+
 }
 
 
