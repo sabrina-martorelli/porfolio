@@ -118,7 +118,68 @@ justify-content:space-around;
 /* Work Section CSS */
 
 
-/* Ccntact Section CSS */
+#work {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "work-1 work-1 work-2"
+    "work-3 work-4 work-2"
+    "work-5 work-5 work-5"
+  ;
+}
+
+#work-1 {
+  grid-area: work-1;
+  background-image: url("https://api.lorem.space/image/house");
+
+}
+#work-2 {
+  grid-area: work-2;
+  background-image: url("https://api.lorem.space/image/fashion");
+
+}
+#work-3 {
+  grid-area: work-3;
+  background-image: url("https://api.lorem.space/image/watch");
+
+}
+#work-4 {
+  grid-area: work-4;
+  background-image: url("https://api.lorem.space/image/drink");
+
+}
+#work-5 {
+  grid-area: work-5;
+  background-image: url("https://api.lorem.space/image/album");
+  filter: grayscale(100%);
+}
+
+.work-area {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+ 
+}
+
+.heading {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  color: var(--highlight-color);
+  font-size: 20px;
+  border-bottom: 5px solid ;
+  filter:none;
+ 
+}
+
+
+
+/* Contact Section CSS */
 
 
 
