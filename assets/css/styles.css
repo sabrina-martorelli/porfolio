@@ -47,18 +47,32 @@
 /* Navigation styles */
  header{
     display: flex;
-    background-color: #000;
+    background-color: var(--primary-color);
     padding: 20px;
+    justify-content: space-between;
     }
 
 header h1
 {
 font-size: 30px;
-color: red;
+color: var(--highlight-color);
 
 }
 
-nav p{
+header nav a {
 color: #fff;
+text-decoration: none;
+}
 
+header nav a: hover {
+  text-decoration: underline;
+  color: var(--highlight-color);
+  
+  }
+
+#navigation-links{    
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
 }
