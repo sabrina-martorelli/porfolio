@@ -255,12 +255,18 @@ padding-bottom: 20px;
 
 }
 
-
-
 #navigation-contact a {
   text-decoration: none;
   cursor: pointer;
   color: var(--secondary-color );
+  
+  
+}
+
+#navigation-contact a:hover {
+  color: var(--highlight-color);
+  text-decoration: underline;
+ 
   
   
 }
