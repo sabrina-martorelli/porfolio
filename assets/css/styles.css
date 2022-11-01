@@ -45,6 +45,13 @@
 
 
 
+.icon  {    
+  width: 8%;
+  height: auto;
+  margin: 0px 20px;
+  cursor: pointer;
+ 
+}
 
 /* Navigation and sub-heading CSS */
  header{
@@ -100,10 +107,52 @@ font-weight: normal;
 /* Me Section CSS */
 #me {
 display: flex;
-padding: 200px;
-justify-content:space-around;
+min-height: 500px;
+margin-top: 3%;
+justify-content: center;
+border: 2px solid black ;
+align-items: center;
+}
+
+#me figure img {
+  width: 90%;
+  height: auto;
 
 }
+
+#me aside {
+  text-align: center;
+
+}
+
+#me aside h2, h3, h4{
+  font-weight: normal;
+}
+
+
+#me aside h2{
+font-size: 35px;
+padding-bottom: 20px;
+
+}
+
+#me aside h3{
+  font-size: 20px;
+  color: var(--secondary-color);
+  padding-bottom: 20px;
+  
+}
+
+#me aside h4 a{
+
+  font-size: 14px;
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+
+
+
 
 /* About Section CSS */
 
@@ -193,12 +242,6 @@ justify-content:space-around;
 
 }
 
-#navigation-contact img {    
-  width: 8%;
-  height: auto;
-  margin: 0px 20px;
- 
-}
 
 
 #navigation-contact a {
