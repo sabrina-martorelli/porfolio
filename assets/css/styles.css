@@ -277,3 +277,38 @@ padding: 20px;
 color: var(--secondary-color);
 text-align: end;
 }
+
+
+/* Responsive CSS */
+
+@media (max-width: 768px) {
+
+
+
+  nav a{
+      font-size: 10%; /*10% of original size*/
+      font-size: .90rem /*90% of original size*/
+
+  }
+
+  #work{
+      grid-template-areas:
+      'work-1'
+      'work-2'
+      'work-3' 
+      'work-4'
+      'work-5'
+      ;
+      grid-template-columns: 1fr;
+
+      }
+
+
+
+}
+
+
+
+
+
+
