@@ -64,11 +64,11 @@ color: #fff;
 text-decoration: none;
 }
 
-header nav a: hover {
+/*header nav a: hover {
   text-decoration: underline;
   color: var(--highlight-color);
-  
   }
+*/
 
 #navigation-links{    
   display: flex;
@@ -76,3 +76,30 @@ header nav a: hover {
   align-items: center;
   justify-content: space-around;
 }
+
+/* Me Section Styles */
+
+#me {
+display: flex;
+padding: 200px;
+justify-content:space-around;
+
+}
+
+
+.sub-heading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 300px;
+  margin: 50px auto;
+}
+
+
+/* Typography CSS */
+
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
