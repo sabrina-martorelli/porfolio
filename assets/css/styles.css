@@ -1,15 +1,12 @@
-/*Variables*/
+/*VARIABLES*/
 :root {
-
-  /* Main colours */
   --primary-color: rgb(14, 24, 24);
   --secondary-color: rgb(145, 144, 140);
   --highlight-color: rgb(234, 31, 73);
-
 }
 
 
-/* Resets */
+/* RESETS */
 * {
   box-sizing: border-box;
 }
@@ -19,7 +16,6 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
-
 }
 
 h1,
@@ -36,17 +32,16 @@ p {
 }
 
 
-/* General element selectors */
+/* GLOBAL CLASES*/
 
 .icon {
   width: 8%;
   height: auto;
   margin: 0px 20px;
   cursor: pointer;
-
 }
 
-/* Header CSS */
+/* CUSTOM STYLES */
 header {
   display: flex;
   background-color: var(--primary-color);
@@ -58,17 +53,13 @@ header h1 {
   font-size: 32px;
   color: var(--highlight-color);
   font-weight: normal;
-
 }
 
-
 #navigation-links {
-
   display: flex;
   width: 30%;
   align-items: center;
   justify-content: space-around;
-
 }
 
 #navigation-links a {
@@ -80,12 +71,8 @@ header h1 {
 
 
 #navigation-links a:hover {
-
   color: var(--highlight-color);
   text-decoration: underline;
-
-
-
 }
 
 .sub-heading {
@@ -97,9 +84,6 @@ header h1 {
   font-weight: normal;
 }
 
-
-
-/* Me Section CSS */
 #me {
   display: flex;
   min-height: 500px;
@@ -111,12 +95,10 @@ header h1 {
 #me figure img {
   width: 70%;
   height: auto;
-
 }
 
 #me aside {
   text-align: center;
-
 }
 
 #me aside h2,
@@ -129,45 +111,33 @@ h4 {
 #me aside h2 {
   font-size: 35px;
   padding-bottom: 20px;
-
 }
 
 #me aside h3 {
   font-size: 24px;
   color: var(--secondary-color);
   padding-bottom: 20px;
-
 }
 
 #me aside h4 a {
-
   font-size: 14px;
   color: var(--secondary-color);
   text-decoration: none;
 }
 
 #me aside h4 a:hover {
-
   color: var(--highlight-color);
   text-decoration: underline;
   font-weight: bolder;
-
-
 }
 
-
-/* About Section CSS */
 #about p {
   text-align: center;
   width: 80%;
   margin: 50px auto;
   font-size: 20px;
-
-
 }
 
-
-/* Work Section CSS */
 #work {
   margin: 0px 5%;
   display: grid;
@@ -176,38 +146,32 @@ h4 {
   grid-template-areas:
     "work-1 work-1 work-1"
     "work-3 work-4 work-2"
-    "work-5 work-5 work-2"
-  ;
+    "work-5 work-5 work-2";
 }
 
 #work-1 {
   grid-area: work-1;
   background-image: url("../images/realstate.jpg");
-
 }
 
 #work-2 {
   grid-area: work-2;
   background-image: url("../images/fashion.jpg");
-
 }
 
 #work-3 {
   grid-area: work-3;
   background-image: url("../images/sports.jpg");
-
 }
 
 #work-4 {
   grid-area: work-4;
   background-image: url("../images/products.jpg");
-
 }
 
 #work-5 {
   grid-area: work-5;
   background-image: url("../images/travel.jpg");
-
 }
 
 .work-area {
@@ -218,7 +182,6 @@ h4 {
   cursor: pointer;
   display: grid;
   align-content: end;
-
 }
 
 .heading {
@@ -227,11 +190,7 @@ h4 {
   color: var(--highlight-color);
   font-size: 20px;
   border-bottom: 5px solid;
-
 }
-
-
-/* Contact Section CSS */
 
 #navigation-contact {
   display: flex;
@@ -240,35 +199,25 @@ h4 {
   align-items: flex-start;
   margin: 40px auto;
   font-weight: normal;
-
 }
 
 #navigation-contact a {
   text-decoration: none;
   cursor: pointer;
   color: var(--secondary-color);
-
-
 }
 
 #navigation-contact a:hover {
   color: var(--highlight-color);
   text-decoration: underline;
-
-
-
 }
 
 #navigation-contact h3 {
-
   font-size: 20px;
   color: var(--highlight-color);
   font-weight: normal;
-
 }
 
-
-/* Footer CSS */
 
 footer {
   background-color: var(--primary-color);
@@ -278,14 +227,13 @@ footer {
 }
 
 
-/* Responsive CSS */
+/* MOBILE STYLE */
 
 @media screen and (max-width: 600px) {
 
   #navigation-links {
     display: flex;
     flex-direction: column;
-
   }
 
   #me {
@@ -309,7 +257,7 @@ footer {
     justify-items: flex-start;
     width: auto;
   }
-  
+
   #navigation-contact h3 {
     font-size: 99%;
   }
@@ -317,6 +265,4 @@ footer {
   footer {
     text-align: start;
   }
-
-
 }
