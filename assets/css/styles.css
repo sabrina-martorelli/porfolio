@@ -90,11 +90,15 @@ header h1 {
   margin-top: 3%;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
-#me figure img {
-  width: 70%;
+
+
+.figure img{
+  width: 50%;
   height: auto;
+ 
 }
 
 #me aside {
