@@ -183,9 +183,10 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5px;
-  cursor: pointer;
+
   display: grid;
   align-content: end;
+ 
 }
 
 .heading {
@@ -194,6 +195,13 @@ h4 {
   color: var(--highlight-color);
   font-size: 20px;
   border-bottom: 5px solid;
+  
+}
+
+.work-area a{
+
+  text-decoration: none;
+
 }
 
 #navigation-contact {
